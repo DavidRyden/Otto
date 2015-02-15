@@ -1,0 +1,111 @@
+/**
+ * General elements
+ */
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sitelogo {
+  padding: 10px;
+  background-color: #333;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+
+
+/**
+ * Layout for navigation bar / menu
+ */
+ 
+ ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+ul.navbar li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+ul.navbar li:first-child {
+  padding-left: 0;
+}
+
+ul.navbar li.selected a {
+background-color:#999;padding:0.5em 0.2em 0.5em 0.2em
+}    
+
+ ul.navbar {display: block;background-color:#333;font-family:Verdana;padding:0.5em;}
+
+ul.navbar a {color:#fff;padding:0.2em;text-decoration:none;}
+
+ul.navbar a:hover {background-color:#666;padding:0.5em 0.2em 0.5em 0.2em}
+
+
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for byline
+ */
+
+ .byline {
+ padding-top: 100px;
+ display: block
+ }
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.sitefooter {
+  color: #666;
+}
